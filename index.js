@@ -70,5 +70,6 @@ module.exports = {
         'prefer-spread': 'error',
         'rest-spread-spacing': 'error',
         'yield-star-spacing': ['error', 'after'],
+        'arrow-parens': [2, "as-needed", { "requireForBlockBody": true }],
     }
 };
