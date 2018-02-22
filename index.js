@@ -3,24 +3,22 @@
 module.exports = {
     rules: {
         'indent': ['error', 4],
-        'no-cond-assign': 0,
+        'no-cond-assign': 'off',
         'no-irregular-whitespace': 'error',
         'no-unexpected-multiline': 'error',
         'curly': ['error', 'multi'],
-        'guard-for-in': 'error',
         'no-caller': 'error',
         'no-extend-native': 'error',
         'no-extra-bind': 'error',
-        'no-invalid-this': 'error',
         'no-multi-spaces': 'error',
         'no-multi-str': 'error',
         'no-new-wrappers': 'error',
         'no-throw-literal': 'error',
         'no-with': 'error',
         'no-unused-vars': ['error', {args: 'none'}],
-        'array-bracket-newline': 0,
+        'array-bracket-newline': 'off',
         'array-bracket-spacing': ['error', 'never'],
-        'array-element-newline': 0,
+        'array-element-newline': 'off',
         'block-spacing': ['error', 'never'],
         'brace-style': 'error',
         'camelcase': ['error', {properties: 'never'}],
@@ -31,15 +29,9 @@ module.exports = {
         'eol-last': 'error',
         'func-call-spacing': 'error',
         'key-spacing': 'error',
-        'keyword-spacing': ['error', {
-            'before': true,
-            'after': true
-        }],
+        'keyword-spacing': ['error', {'before': true, 'after': true}],
         'linebreak-style': ['error', 'unix'],
-        'max-len': ['error', {
-            code: 100,
-            tabWidth: 4,
-        }],
+        'max-len': ['error', {code: 100, tabWidth: 4}],
         'no-array-constructor': 'error',
         'no-mixed-spaces-and-tabs': 'error',
         'no-multiple-empty-lines': ['error', {max: 2}],
@@ -70,6 +62,6 @@ module.exports = {
         'prefer-spread': 'error',
         'rest-spread-spacing': 'error',
         'yield-star-spacing': ['error', 'after'],
-        'arrow-parens': [2, "as-needed", { "requireForBlockBody": true }],
+        'arrow-parens': ['error', "as-needed", {"requireForBlockBody": true}],
     }
 };
