@@ -63,5 +63,6 @@ module.exports = {
         'rest-spread-spacing': 'error',
         'yield-star-spacing': ['error', 'after'],
         'arrow-parens': ['error', "as-needed", {"requireForBlockBody": true}],
+        'no-multiple-empty-lines': ['error', {'max': 1}],
     }
 };
